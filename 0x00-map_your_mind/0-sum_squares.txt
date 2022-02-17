@@ -1,0 +1,11 @@
+FUNCTION Calculations(list[]):
+
+  SquaredList[]
+  SumList = 0
+
+  FOR index from 0 to length(list):
+
+    SquaredList[index] = list[index] * list[index]
+    SumList = SumList + SquaredList[index]
+
+  RETURN SumList
